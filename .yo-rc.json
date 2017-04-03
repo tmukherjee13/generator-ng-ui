@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Tarun M",
+      "authorEmail": "tmukherjee13@gmail.com",
+      "authorUrl": "https://tarunmukherjee.com"
+    }
+  }
+}
