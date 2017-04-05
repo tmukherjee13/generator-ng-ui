@@ -1,0 +1,17 @@
+{
+  "esversion": 6,
+  "bitwise": true,
+  "camelcase": true,
+  "curly": true,
+  "eqeqeq": true,
+  "immed": true,
+  "latedef": true,
+  "mocha": true,
+  "newcap": true,
+  "noarg": true,
+  "node": true,
+  "quotmark": "single",
+  "strict": true,
+  "undef": false,
+  "unused": true,
+}

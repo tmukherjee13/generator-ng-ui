@@ -1,0 +1,7 @@
+{
+	"user" : {
+		"username": "john",
+		"password": "doe",
+		"email": "johndoe@example.net"
+	}
+}

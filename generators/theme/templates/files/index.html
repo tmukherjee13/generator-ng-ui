@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="app">
+<head>
+  <!-- <base href="/"> -->
+  <meta charset="utf-8" />
+  <title> <%= _.startCase(_.toLower(name)); %></title>
+  <meta name="description" content="app, web app, responsive, responsive layout, admin, admin panel, admin dashboard, flat, flat ui, ui kit, AngularJS, ui route, charts, widgets, components" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/animate.css" type="text/css" />
+  <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/font.css" type="text/css" />
+  <link rel="stylesheet" href="css/app.css" type="text/css" />
+</head>
+<body ng-controller="AppCtrl">
+  <div class="app" id="app" ng-class="{'app-header-fixed':app.settings.headerFixed, 'app-aside-fixed':app.settings.asideFixed, 'app-aside-folded':app.settings.asideFolded, 'app-aside-dock':app.settings.asideDock, 'container':app.settings.container}" ui-view></div>
+
+
+  <!-- jQuery -->
+  <script src="vendor/jquery/dist/jquery.min.js"></script>
+
+  <!-- Angular -->
+  <script src="vendor/angular/angular.js"></script>
+  
+  <script src="vendor/angular-animate/angular-animate.js"></script>
+  <script src="vendor/angular-cookies/angular-cookies.js"></script>
+  <script src="vendor/angular-resource/angular-resource.js"></script>
+  <script src="vendor/angular-sanitize/angular-sanitize.js"></script>
+  <script src="vendor/angular-touch/angular-touch.js"></script>
+  <script src="vendor/angular-ui-router/release/angular-ui-router.js"></script> 
+  <script src="vendor/ngstorage/ngStorage.js"></script>
+
+  <script src="vendor/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+  <script src="vendor/oclazyload/dist/ocLazyLoad.js"></script>
+  <script src="vendor/angular-translate/angular-translate.js"></script>
+  <script src="vendor/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js"></script>
+  <script src="vendor/angular-translate-storage-cookie/angular-translate-storage-cookie.min.js"></script>
+  <script src="vendor/angular-translate-storage-local/angular-translate-storage-local.min.js"></script>
+
+  <script src="vendor/moment/moment.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/config.lazyload.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/services/ui-load.js"></script>
+  <script src="js/directives/ui-jq.js"></script>
+  <script src="js/directives/ui-nav.js"></script>
+  <!-- <script src="js/directives/ui-toggleclass.js"></script> -->
+  <script src="js/controllers/bootstrap.js"></script>
+  <% if (enabledModules.auth) { %>
+  <script src="js/services/auth.js"></script>
+  <% } %>
+  
+</body>
+</html>

@@ -1,0 +1,49 @@
+{
+  "name": "<%= _.slugify(name) %>",
+  "version": "1.0.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "~4.2.0",
+    "angular": "1.6.4",
+    "angular-animate": "~1.6.2",
+    "angular-cookies": "~1.6.2",
+    "angular-resource": "~1.6.2",
+    "angular-touch": "~1.6.2",
+    "angular-sanitize": "~1.6.2",
+    "angular-translate": "~2.15.0",
+    "angular-ui-router": "~0.4.x",
+    "ngstorage": "^0.3.11",
+    "oclazyload": "0.5.0",
+    "angular-bootstrap": "0.12.0",
+    "angular-ui-utils": "~0.1.1",
+    "moment": "~2.8.3",
+    "angular-bootstrap-nav-tree": "*",
+    "angular-ui-select": "~0.8.3",
+    "angular-ui-calendar": "latest",
+    "angularjs-toaster": "~0.4.8",
+    "ng-grid": "~2.0.13",
+    "textAngular": "~1.2.2",
+    "angular-translate-loader-static-files": "^2.15.1",
+    "angular-translate-storage-cookie": "^2.15.1",
+    "angular-translate-storage-local": "^2.15.1",
+    "flot-charts": "*",
+    "jquery.sparkline.bower": "^2.1.2",
+    "jquery.easy-pie-chart": "^2.1.6",
+    "jqvmap": "^1.5.1",
+    "chosen": "^1.7.0"
+  },
+  "resolutions": {
+    "angular-touch": "1.6.2",
+    "angular-sanitize": "1.6.2",
+    "angular": "~1.6.4",
+    "moment": "~2.10.3",
+    "angular-translate": "~2.15.1"
+  }
+}
