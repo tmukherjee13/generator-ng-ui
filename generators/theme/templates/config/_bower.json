@@ -34,6 +34,7 @@
     "angular-translate-storage-cookie": "^2.15.1",
     "angular-translate-storage-local": "^2.15.1",
     "flot-charts": "*",
+    "flot-spline": "*",
     "jquery.sparkline.bower": "^2.1.2",
     "jquery.easy-pie-chart": "^2.1.6",
     "jqvmap": "^1.5.1",

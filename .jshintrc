@@ -13,5 +13,5 @@
   "quotmark": "single",
   "strict": true,
   "undef": false,
-  "unused": true,
+  "unused": true
 }
